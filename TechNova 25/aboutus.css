@@ -1,0 +1,99 @@
+.about-us {
+    margin-top: -8vw;
+    position: relative;
+    z-index: 4;
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
+
+.section {
+    position: sticky;
+    top: 5vw;
+    margin-left: 10vw;
+    margin-right: 50vw;
+}
+
+.sectionh1 {
+    font-family: "Syne", system-ui;
+    font-weight: 600;
+    font-size: 6vw;
+    text-shadow: 4px 4px 10px rgba(0, 180, 87, 0.768);
+    margin-top: 40vw;
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+    color: #fff;
+}
+
+.sectionp {
+    font-family: "Work Sans", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 2vw;
+}
+
+.galaxy{
+    width: 30vw;
+    margin-left: 60vw;
+}
+
+@media (min-width: 650px) and (max-width: 768px) {
+    .sectionh1 {
+        font-size: 8vw;
+        text-align: left;
+        margin-left: 4vw;
+    }
+    .sectionp {
+        font-size: 3.5vw;
+        text-align: left;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    .section {
+        position: relative;
+        top: 5vw;
+        margin: auto;
+        margin-bottom: 2vw;
+    }
+    .about-us {
+        margin-top: -30vw;
+    }
+    .galaxy{
+        padding-top: 2vw;
+        margin: auto;
+        margin-bottom: -10vw;
+        width: 70%;
+    }
+}
+
+@media (max-width: 649px){
+    .about-us{
+        height: 800px;
+    }
+    .sectionh1 {
+        font-size: 8vw;
+        text-align: left;
+        margin-left: 4vw;
+        margin-top: 20vw;
+    }
+    .sectionp {
+        font-size: 3.5vw;
+        text-align: left;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    .section {
+        position: relative;
+        margin: auto;
+        margin-bottom: 2vw;
+    }
+    .about-us {
+        margin-top: -20vw;
+    }
+    .galaxy{
+        padding-top: 10vw;
+        margin: auto;
+        padding-bottom: -20vw;
+        width: 70%;
+    }
+}

@@ -1,0 +1,47 @@
+.landing {
+    position: relative;
+    height: 50vh;
+    margin-top: -10rem;
+    z-index: 1;
+}
+
+.landing-img {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-image: url("Assets/galaxy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.earth-img {
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    margin-top: 17vw;
+}
+
+.headline {
+    font-family: "Syne", system-ui;
+    font-weight: 600;
+    font-size: 6vw;
+    z-index: 3;
+    margin-top: 11%;
+    margin-left: 18%;
+    text-align: center;
+    color: white;
+    position: fixed;
+    text-shadow: 4px 4px 10px rgba(0, 180, 87, 0.768);
+}
+
+@media (max-width: 768px) {
+    .landing {
+        background-position: center top;
+    }
+}
+
+@media (max-width: 480px) {
+    .landing {
+        background-position: center bottom;
+    }
+}

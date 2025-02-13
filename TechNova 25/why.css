@@ -1,0 +1,106 @@
+.why {
+    margin-top: -40vw;
+    position: relative;
+    z-index: 4;
+    background-color: black;
+    height: 180vh;
+    width: 100%;
+}
+
+.section2 {
+    position: sticky;
+    top: 1vw;
+    margin-left: 10vw;
+    margin-right: 50vw;
+}
+
+.italic{
+    font-style: italic;
+    margin-top: 1vw;
+}
+
+.tag1{
+    margin-top: 1.5vw;
+    margin-bottom: -1.3vw;
+}
+
+.membertag{
+    font-style: italic;
+    text-align: right;
+    color: #b0ffffee;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.4vw;
+}
+
+.slideshow-container{
+    margin-top: -13vw;
+    width: 40%;
+    margin-left: 60vw;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: 10vw;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.fade-out {
+    animation: fadeOut 3s forwards;
+}
+
+.fade-in {
+    animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    .why{
+        padding-top: 20vw;
+        height: 250vh;
+    }
+    .clearfix{
+        flex-direction: column;
+    }
+    .italic{
+        font-size: 2vw;
+    }
+    .whyp{
+        margin-right: 1vw;
+        font-size: 3vw;
+    }
+    .slideshow-container{
+        margin-left: 50vw;
+    }
+    .whyh1{
+        font-size: 6vw;
+    }
+    .tag1{
+        margin-bottom: -2.3vw;
+    }
+    .membertag{
+        font-size: 1.8vw;
+    }
+}

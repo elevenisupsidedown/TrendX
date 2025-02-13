@@ -1,0 +1,151 @@
+/*Footer*/
+footer {
+    margin-top: -1vw;
+    position: relative;
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    padding: 20px;
+    z-index: 6;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.footer1, .footer2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer3{
+    margin: auto;
+    margin-top: 5vh;
+    width: 30%;
+}
+
+.footer2{
+    margin: auto;
+    margin-top: 5vh;
+    width: 30%;
+}
+
+.footer1{
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.icon-container {
+    display: flex;
+    margin: auto;
+}
+
+.contacticon {
+    margin-top: 1vw;
+    font-size: 3vw;
+    padding: 1vw;
+    height: auto;
+}
+
+
+.footerh1{
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 450;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom: 0vw;
+}
+
+.footerh2{
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 450;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+.footer-bottom {
+    color: white;
+    margin-top: 5vw;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 350;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    align-content: center;
+    height: 0.08vh;
+    background: #bcfff15d;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.footerlogo{
+    margin-left: 7vw;
+    width: 15vw;
+}
+
+.quick{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 250;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer{
+        height: 60vh;
+        margin-top: 10vw;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerh1{
+        font-size: 3vw;
+    }
+    
+    .footerh2{
+        font-size: 3vw;
+    }
+    .footerlogo{
+        width: 25vw;
+        margin: auto;
+        margin-bottom: 2vw;
+    }
+    
+    .quick{
+        font-size: 2.5vw;
+    }
+    .footer-bottom p {
+        font-size: 2.5vw;
+        padding-bottom: 5vw;
+    }
+    .contacticon {
+        margin-top: 2vw;
+        font-size: 6vw;
+        padding: 3vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer{
+        height: 50vh;
+        margin-top: 5vw;
+    }
+}
+

@@ -1,0 +1,110 @@
+.services{
+    background-color: #000000;
+    height: auto;
+    padding-bottom: 10vw;
+    margin-top: -50vw;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+}
+
+.card-container{
+    margin-bottom: 20vh;
+    margin-left: 60vw;
+    background-color: #000000;
+}
+
+.card1 {
+    width: 70%;
+    margin: 2vw 3vw 4vw 3vw;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 2vw;
+    transition: transform 0.3s;
+    background-color: #071d00;
+    box-shadow: 4px 4px 10px rgba(5, 180, 87, 0.3);
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+}
+
+.card1:hover img,
+.card1:focus img {
+    filter: blur(0);
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card-h3 {
+    font-family: "Syne", system-ui;
+    padding: 20px 0px 20px 0px;
+    font-family: "Syne", system-ui;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.7vw;
+    text-shadow: 4px 4px 10px rgba(0, 180, 87, 0.768);
+    color: #fff;
+}
+
+.card-p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 1.3vw;
+    padding: 10px 5px 10px 5px;
+    color: #ffffff;
+}
+
+.socialm{
+    font-size: 2.4vw;
+}
+
+
+@media (max-width: 768px) {
+    .card-container {
+        margin: auto;
+        width: 70%;
+        margin-top: 20vw;
+    }
+
+    .section {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .card1 {
+        width: 90%;
+        margin: 2vw auto;
+    }
+
+    .card-h3 {
+        font-size: 5vw;
+    }
+
+    .card-p {
+        font-size: 3vw;
+    }
+    .socialm{
+        font-size: 4.8vw;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .services {
+        margin-top: -20vw;
+        margin-top: -30vw;
+    }
+    .card1 {
+        width: 90%;
+        margin: 5vw;
+    }
+}
+
