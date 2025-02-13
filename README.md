@@ -11,4 +11,4 @@ Hesara Sethumni
 Visakha Vidyalaya
 071 488 5025
 
-link to GitHub repo: 
+link to GitHub repo: https://github.com/elevenisupsidedown/TrendX.git
